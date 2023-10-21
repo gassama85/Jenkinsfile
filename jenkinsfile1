@@ -1,0 +1,42 @@
+pipeline
+{
+    agent any
+    stages
+    {
+        stage('Welcome')
+        {
+            steps
+            {
+                sh 'echo "Welcome to the Skyda Homepage"'
+            }
+        }
+        stage('Meeting')
+        {
+            steps
+            {
+                sh 'echo "Monthly meeting is Nov 1st"'
+            }
+        }
+        stage('Agenda')
+        {
+            steps
+            {
+                sh 'echo "The SK water project"'
+            }
+        }
+        stage('Time')
+        {
+            steps
+            {
+                sh 'echo "10 am"'
+            }
+        }
+        stage('Duration')
+        {
+            steps
+            {
+                sh 'echo "Two hours"'
+            }
+        }
+    }
+}
