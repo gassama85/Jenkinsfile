@@ -1,0 +1,15 @@
+pipeline
+{
+    agent any
+    stages
+    {
+	stage('Meeting')
+        {
+            steps
+            {
+                sh 'echo "Monthly meeting is Nov 1st"'
+            }
+        }
+    }
+}
+
