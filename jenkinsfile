@@ -1,4 +1,9 @@
-nload')
+pipeline
+{
+   agent any
+   stages
+   {
+        stage('download')
         {
             steps
             {
