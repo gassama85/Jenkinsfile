@@ -10,7 +10,7 @@ pipeline
                 sh 'echo "Welcome to the Skyda Homepage"'
             }
         }
-        stage('Meeting')
+        stage('Monthly meeting')
         {
             steps
             {
