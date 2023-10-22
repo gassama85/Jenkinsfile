@@ -1,0 +1,14 @@
+pipeline
+{
+    agent any
+    stages
+    {
+        stage('Agenda')
+        {
+            steps
+            {
+                sh 'echo "The SK water project"'
+            }
+        }
+    }
+}
